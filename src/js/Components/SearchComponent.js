@@ -34,9 +34,9 @@ export default class SearchComponent extends React.Component {
 			<div style={myStyle} className="container">
 				<form className="form-horizontal">
 							<div className="form-group">
-								<label className="col-lg-4 control-label" htmlFor="inputUserName">Enter User Name/Technology: </label>
+								<label className="col-lg-4 control-label" htmlFor="inputUserName">Enter User Name: </label>
 								<div className="col-lg-6">
-										<input className="form-control" id="inputUserName" placeholder="User Name/Technology Name" type="text" onChange={this.value}/>
+										<input className="form-control" id="inputUserName" placeholder="User Name" type="text" onChange={this.value}/>
 								</div>
 							</div>
 							<div className="form-group">
