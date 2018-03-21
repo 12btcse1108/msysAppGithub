@@ -5,7 +5,6 @@ var ModalCategory=React.createClass({
 	AddRepository(e){
 		e.preventDefault();
 		var Category=this.refs.Category.value;
-		alert(Category);
 		this.refs.Category.value='';
 		this.props.onAdd(Category,this.props.id,this.props.RepoObj);
 

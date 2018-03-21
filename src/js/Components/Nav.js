@@ -16,9 +16,6 @@ render(){
 								<li className="active">
 									<Link to="/"> Home </Link>
 								</li>
-								<li>
-									<Link to="/search"> Search Repositories </Link>
-								</li>
 							</ul>
 						</div>
 					</nav>

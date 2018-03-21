@@ -17,7 +17,6 @@ export default class SearchComponent extends React.Component {
 	SearchUserRepo = (e) => {
 		e.preventDefault();
 		var inputField = this.state.text;
-		alert(inputField);
 		// this.refs.inputField.value='';
 		this.props.onSearch(inputField, "UserName");
 	}

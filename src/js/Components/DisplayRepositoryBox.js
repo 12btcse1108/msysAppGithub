@@ -13,17 +13,17 @@ export default class DisplayRepositoryBox extends React.Component{
 			<div className="container">
 			<div className="row">
 			<div className="col-lg-10">
-			 <h3> Repository ID:<small style={{fontSize:"20px"}}> {RepoObject.id} </small></h3>
+			 <h3> Repository ID:<small style={{fontSize:"20px",color:"white"}}> {RepoObject.id} </small></h3>
 			 </div>
 			 </div>
 			 <div className="row">
 			<div className="col-lg-10">
-			<h3> Repository Name:  <small style={{fontSize:"20px"}}> {RepoObject.name} </small></h3>
+			<h3> Repository Name:  <small style={{fontSize:"20px",color:"white"}}> {RepoObject.name} </small></h3>
 			</div>
 			</div>
 			<div className="row">
 			<div className="col-lg-10">
-			<h3> Star-Rating:  <small style={{fontSize:"20px"}}> {RepoObject.stargazers_count} </small></h3>
+			<h3> Star-Rating:  <small style={{fontSize:"20px",color:"white"}}> {RepoObject.stargazers_count} </small></h3>
 			</div>
 			</div>
 			<br></br>

@@ -13,7 +13,6 @@ export default class ParentComponent extends React.Component {
 	}
 
 	handleSearchRepo = (input, choice) => {
-		alert(input+"  "+choice);
 		var url='';
 		if(choice==="UserName"){
 		url="https://api.github.com/users/"+input+"/repos"; //Ajax Call to the github API to fetch the user Repositories
